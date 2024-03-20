@@ -11,3 +11,7 @@ type="text/CSS">
  <p> Graczyk</p>
  </body
 kod css
+p {
+color: blue;
+font-size: 48 px;
+ }
