@@ -20,3 +20,7 @@ kod html
 </body>
 </html>
 kod css
+p {
+color: yellow;
+font-size: 68px;
+ }
