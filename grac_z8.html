@@ -12,6 +12,14 @@
             font-size: 16px;
             font-family: Arial, sans-serif;
         }
+       code {
+            display: block;
+            padding: 10px;
+            background-color: #f4f4f4;
+            font-size: 14px;
+            font-family: Consolas, monospace;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
@@ -21,13 +29,19 @@
         <ol>
             <li><strong>Gdzie jest wstawiany</strong>: Wewnętrzny arkusz stylów jest wstawiany bezpośrednio w sekcji <code>&lt;head&gt;</code> pliku HTML.</li>
             <li><strong>Składnia teoretyczna</strong>:</li>
-        <td>
+         </ol>
+    </p>
+
+    <code>
         &lt;head&gt;<br>
         &nbsp;&nbsp;&lt;style type="text/css"&gt;<br>
         &nbsp;&nbsp;&nbsp;&nbsp;/* Tu wstaw style */<br>
         &nbsp;&nbsp;&lt;/style&gt;<br>
         &lt;/head&gt;
-       </td>
+    </code>
+
+    <p>
+        <ol start="3">
            <li><strong>Jakie mogą być selektory</strong>: Selektory w wewnętrznym arkuszu stylów mogą być identyczne jak te używane w zewnętrznych arkuszach stylów CSS, takie jak selektory klas, id, elementów HTML, a także selektory atrybutów.</li>
             <li><strong>Jakie mogą być cechy i wartości</strong>: Wewnętrzny arkusz stylów może zawierać różnorodne cechy i wartości CSS, takie jak:
                 <ul>
