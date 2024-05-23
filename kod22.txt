@@ -42,4 +42,4 @@
     Edukacja użytkowników jest bardzo ważna.</div>
 </body>
 </html>
-<!-- Kacper Gorlikowski-->
+<!-- Konrad Graczyk-->
